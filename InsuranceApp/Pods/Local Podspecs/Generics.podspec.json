@@ -1,0 +1,37 @@
+{
+  "name": "Generics",
+  "version": "0.1.0",
+  "summary": "Generics for complete application",
+  "homepage": "https://gitlab.com/mahvish10/genericspod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mahvishsyed10": "mahvishsyed15@gmail.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/mahvish10/genericspod.git",
+    "branch": "main"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "Generics/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "PromiseKit": [
+      "~> 6.8"
+    ],
+    "Alamofire": [
+      "~> 5.2"
+    ],
+    "SwiftyJSON": [
+      "~> 4.0"
+    ]
+  },
+  "swift_version": "4.2"
+}

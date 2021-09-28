@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B8610E26C1E47700DAC12A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B8610D26C1E47700DAC12A /* AppDelegate.swift */; };
+		03B8611026C1E47700DAC12A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B8610F26C1E47700DAC12A /* SceneDelegate.swift */; };
+		03B8611226C1E47700DAC12A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B8611126C1E47700DAC12A /* ViewController.swift */; };
+		03B8611526C1E47700DAC12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B8611326C1E47700DAC12A /* Main.storyboard */; };
+		03B8611726C1E47D00DAC12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B8611626C1E47D00DAC12A /* Assets.xcassets */; };
+		03B8611A26C1E47D00DAC12A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B8611826C1E47D00DAC12A /* LaunchScreen.storyboard */; };
+		03B8612526C1E47E00DAC12A /* InsuranceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B8612426C1E47E00DAC12A /* InsuranceAppTests.swift */; };
+		03B8613026C1E47E00DAC12A /* InsuranceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B8612F26C1E47E00DAC12A /* InsuranceAppUITests.swift */; };
+		C1031F56F57E726964E781E9 /* Pods_InsuranceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00EAE49EC869B90C836F03B /* Pods_InsuranceApp.framework */; };
+		C710CFA7376C57938AA4D30E /* Pods_InsuranceAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE892065A1CB6AA410432D67 /* Pods_InsuranceAppTests.framework */; };
+		FB0490BB26C7289500D29542 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0490BA26C7289500D29542 /* LoginView.swift */; };
+		FB0490C526C738D200D29542 /* UserCredentialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0490C426C738D200D29542 /* UserCredentialModel.swift */; };
+		FB4005F126D6C55D00875145 /* InstagramTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4005F026D6C55D00875145 /* InstagramTableViewController.swift */; };
+		FB4005F426D6C59A00875145 /* InstagramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4005F226D6C59A00875145 /* InstagramTableViewCell.swift */; };
+		FB4005F526D6C59A00875145 /* InstagramTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4005F326D6C59A00875145 /* InstagramTableViewCell.xib */; };
+		FB76F29A26D447F400A814FD /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB76F29826D447F400A814FD /* CustomTabBarViewController.swift */; };
+		FBE6B02826CD5C8C00DF46A7 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE6B02726CD5C8C00DF46A7 /* LoginService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B8612126C1E47E00DAC12A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B8610226C1E47700DAC12A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B8610926C1E47700DAC12A;
+			remoteInfo = InsuranceApp;
+		};
+		03B8612C26C1E47E00DAC12A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B8610226C1E47700DAC12A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B8610926C1E47700DAC12A;
+			remoteInfo = InsuranceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B8610A26C1E47700DAC12A /* InsuranceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsuranceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B8610D26C1E47700DAC12A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03B8610F26C1E47700DAC12A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03B8611126C1E47700DAC12A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03B8611426C1E47700DAC12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03B8611626C1E47D00DAC12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03B8611926C1E47D00DAC12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03B8611B26C1E47D00DAC12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B8612026C1E47E00DAC12A /* InsuranceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuranceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B8612426C1E47E00DAC12A /* InsuranceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceAppTests.swift; sourceTree = "<group>"; };
+		03B8612626C1E47E00DAC12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B8612B26C1E47E00DAC12A /* InsuranceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuranceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B8612F26C1E47E00DAC12A /* InsuranceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceAppUITests.swift; sourceTree = "<group>"; };
+		03B8613126C1E47E00DAC12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118F46C9B9725988C1B07AA4 /* Pods-InsuranceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceApp.release.xcconfig"; path = "Target Support Files/Pods-InsuranceApp/Pods-InsuranceApp.release.xcconfig"; sourceTree = "<group>"; };
+		7687EC9B975D95B4EB5E221D /* Pods-InsuranceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceAppTests.debug.xcconfig"; path = "Target Support Files/Pods-InsuranceAppTests/Pods-InsuranceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BBBE4A5CB2DE6C76ECECDEE /* Pods-InsuranceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceApp.debug.xcconfig"; path = "Target Support Files/Pods-InsuranceApp/Pods-InsuranceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CE892065A1CB6AA410432D67 /* Pods_InsuranceAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsuranceAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F49FBCA0419E71F77A0FF8 /* Pods-InsuranceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceAppTests.release.xcconfig"; path = "Target Support Files/Pods-InsuranceAppTests/Pods-InsuranceAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F00EAE49EC869B90C836F03B /* Pods_InsuranceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsuranceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0490BA26C7289500D29542 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FB0490C426C738D200D29542 /* UserCredentialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredentialModel.swift; sourceTree = "<group>"; };
+		FB4005F026D6C55D00875145 /* InstagramTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTableViewController.swift; sourceTree = "<group>"; };
+		FB4005F226D6C59A00875145 /* InstagramTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTableViewCell.swift; sourceTree = "<group>"; };
+		FB4005F326D6C59A00875145 /* InstagramTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstagramTableViewCell.xib; sourceTree = "<group>"; };
+		FB76F29826D447F400A814FD /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		FBE6B02726CD5C8C00DF46A7 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B8610726C1E47700DAC12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1031F56F57E726964E781E9 /* Pods_InsuranceApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B8611D26C1E47E00DAC12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C710CFA7376C57938AA4D30E /* Pods_InsuranceAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B8612826C1E47E00DAC12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B8610126C1E47700DAC12A = {
+			isa = PBXGroup;
+			children = (
+				03B8610C26C1E47700DAC12A /* InsuranceApp */,
+				03B8612326C1E47E00DAC12A /* InsuranceAppTests */,
+				03B8612E26C1E47E00DAC12A /* InsuranceAppUITests */,
+				03B8610B26C1E47700DAC12A /* Products */,
+				1770BCC0A8CD361A1DFEBBD9 /* Pods */,
+				339BF71EBF8AE6F88B048ECF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03B8610B26C1E47700DAC12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B8610A26C1E47700DAC12A /* InsuranceApp.app */,
+				03B8612026C1E47E00DAC12A /* InsuranceAppTests.xctest */,
+				03B8612B26C1E47E00DAC12A /* InsuranceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B8610C26C1E47700DAC12A /* InsuranceApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB4005EF26D6C53F00875145 /* Instagram */,
+				FB0490B926C7286E00D29542 /* Login */,
+				03B8610D26C1E47700DAC12A /* AppDelegate.swift */,
+				03B8610F26C1E47700DAC12A /* SceneDelegate.swift */,
+				03B8611326C1E47700DAC12A /* Main.storyboard */,
+				03B8611626C1E47D00DAC12A /* Assets.xcassets */,
+				03B8611826C1E47D00DAC12A /* LaunchScreen.storyboard */,
+				03B8611B26C1E47D00DAC12A /* Info.plist */,
+				FB76F29826D447F400A814FD /* CustomTabBarViewController.swift */,
+			);
+			path = InsuranceApp;
+			sourceTree = "<group>";
+		};
+		03B8612326C1E47E00DAC12A /* InsuranceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				03B8612426C1E47E00DAC12A /* InsuranceAppTests.swift */,
+				03B8612626C1E47E00DAC12A /* Info.plist */,
+			);
+			path = InsuranceAppTests;
+			sourceTree = "<group>";
+		};
+		03B8612E26C1E47E00DAC12A /* InsuranceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03B8612F26C1E47E00DAC12A /* InsuranceAppUITests.swift */,
+				03B8613126C1E47E00DAC12A /* Info.plist */,
+			);
+			path = InsuranceAppUITests;
+			sourceTree = "<group>";
+		};
+		1770BCC0A8CD361A1DFEBBD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BBBE4A5CB2DE6C76ECECDEE /* Pods-InsuranceApp.debug.xcconfig */,
+				118F46C9B9725988C1B07AA4 /* Pods-InsuranceApp.release.xcconfig */,
+				7687EC9B975D95B4EB5E221D /* Pods-InsuranceAppTests.debug.xcconfig */,
+				D7F49FBCA0419E71F77A0FF8 /* Pods-InsuranceAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		339BF71EBF8AE6F88B048ECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F00EAE49EC869B90C836F03B /* Pods_InsuranceApp.framework */,
+				CE892065A1CB6AA410432D67 /* Pods_InsuranceAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0490B926C7286E00D29542 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FB0490BA26C7289500D29542 /* LoginView.swift */,
+				03B8611126C1E47700DAC12A /* ViewController.swift */,
+				FB0490C426C738D200D29542 /* UserCredentialModel.swift */,
+				FBE6B02726CD5C8C00DF46A7 /* LoginService.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FB4005EF26D6C53F00875145 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				FB4005F026D6C55D00875145 /* InstagramTableViewController.swift */,
+				FB4005F226D6C59A00875145 /* InstagramTableViewCell.swift */,
+				FB4005F326D6C59A00875145 /* InstagramTableViewCell.xib */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B8610926C1E47700DAC12A /* InsuranceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B8613426C1E47E00DAC12A /* Build configuration list for PBXNativeTarget "InsuranceApp" */;
+			buildPhases = (
+				7FE058005DDB1E674309EE95 /* [CP] Check Pods Manifest.lock */,
+				03B8610626C1E47700DAC12A /* Sources */,
+				03B8610726C1E47700DAC12A /* Frameworks */,
+				03B8610826C1E47700DAC12A /* Resources */,
+				0BEDF1F0C96F840D82E4E421 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsuranceApp;
+			productName = InsuranceApp;
+			productReference = 03B8610A26C1E47700DAC12A /* InsuranceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B8611F26C1E47E00DAC12A /* InsuranceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B8613726C1E47E00DAC12A /* Build configuration list for PBXNativeTarget "InsuranceAppTests" */;
+			buildPhases = (
+				B88C5098A3C48CE794D66C44 /* [CP] Check Pods Manifest.lock */,
+				03B8611C26C1E47E00DAC12A /* Sources */,
+				03B8611D26C1E47E00DAC12A /* Frameworks */,
+				03B8611E26C1E47E00DAC12A /* Resources */,
+				DBBF49D7C09B74E0FD830680 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B8612226C1E47E00DAC12A /* PBXTargetDependency */,
+			);
+			name = InsuranceAppTests;
+			productName = InsuranceAppTests;
+			productReference = 03B8612026C1E47E00DAC12A /* InsuranceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03B8612A26C1E47E00DAC12A /* InsuranceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B8613A26C1E47E00DAC12A /* Build configuration list for PBXNativeTarget "InsuranceAppUITests" */;
+			buildPhases = (
+				03B8612726C1E47E00DAC12A /* Sources */,
+				03B8612826C1E47E00DAC12A /* Frameworks */,
+				03B8612926C1E47E00DAC12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B8612D26C1E47E00DAC12A /* PBXTargetDependency */,
+			);
+			name = InsuranceAppUITests;
+			productName = InsuranceAppUITests;
+			productReference = 03B8612B26C1E47E00DAC12A /* InsuranceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B8610226C1E47700DAC12A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					03B8610926C1E47700DAC12A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					03B8611F26C1E47E00DAC12A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 03B8610926C1E47700DAC12A;
+					};
+					03B8612A26C1E47E00DAC12A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 03B8610926C1E47700DAC12A;
+					};
+				};
+			};
+			buildConfigurationList = 03B8610526C1E47700DAC12A /* Build configuration list for PBXProject "InsuranceApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B8610126C1E47700DAC12A;
+			productRefGroup = 03B8610B26C1E47700DAC12A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B8610926C1E47700DAC12A /* InsuranceApp */,
+				03B8611F26C1E47E00DAC12A /* InsuranceAppTests */,
+				03B8612A26C1E47E00DAC12A /* InsuranceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B8610826C1E47700DAC12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B8611A26C1E47D00DAC12A /* LaunchScreen.storyboard in Resources */,
+				FB4005F526D6C59A00875145 /* InstagramTableViewCell.xib in Resources */,
+				03B8611726C1E47D00DAC12A /* Assets.xcassets in Resources */,
+				03B8611526C1E47700DAC12A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B8611E26C1E47E00DAC12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B8612926C1E47E00DAC12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BEDF1F0C96F840D82E4E421 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InsuranceApp/Pods-InsuranceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InsuranceApp/Pods-InsuranceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InsuranceApp/Pods-InsuranceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE058005DDB1E674309EE95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InsuranceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88C5098A3C48CE794D66C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InsuranceAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBBF49D7C09B74E0FD830680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InsuranceAppTests/Pods-InsuranceAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InsuranceAppTests/Pods-InsuranceAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InsuranceAppTests/Pods-InsuranceAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B8610626C1E47700DAC12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0490BB26C7289500D29542 /* LoginView.swift in Sources */,
+				03B8611226C1E47700DAC12A /* ViewController.swift in Sources */,
+				03B8610E26C1E47700DAC12A /* AppDelegate.swift in Sources */,
+				FBE6B02826CD5C8C00DF46A7 /* LoginService.swift in Sources */,
+				FB0490C526C738D200D29542 /* UserCredentialModel.swift in Sources */,
+				FB4005F426D6C59A00875145 /* InstagramTableViewCell.swift in Sources */,
+				FB76F29A26D447F400A814FD /* CustomTabBarViewController.swift in Sources */,
+				FB4005F126D6C55D00875145 /* InstagramTableViewController.swift in Sources */,
+				03B8611026C1E47700DAC12A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B8611C26C1E47E00DAC12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B8612526C1E47E00DAC12A /* InsuranceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B8612726C1E47E00DAC12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B8613026C1E47E00DAC12A /* InsuranceAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B8612226C1E47E00DAC12A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B8610926C1E47700DAC12A /* InsuranceApp */;
+			targetProxy = 03B8612126C1E47E00DAC12A /* PBXContainerItemProxy */;
+		};
+		03B8612D26C1E47E00DAC12A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B8610926C1E47700DAC12A /* InsuranceApp */;
+			targetProxy = 03B8612C26C1E47E00DAC12A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03B8611326C1E47700DAC12A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B8611426C1E47700DAC12A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03B8611826C1E47D00DAC12A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B8611926C1E47D00DAC12A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B8613226C1E47E00DAC12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03B8613326C1E47E00DAC12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B8613526C1E47E00DAC12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BBBE4A5CB2DE6C76ECECDEE /* Pods-InsuranceApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mahvishsyed.InsuranceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03B8613626C1E47E00DAC12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118F46C9B9725988C1B07AA4 /* Pods-InsuranceApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mahvishsyed.InsuranceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03B8613826C1E47E00DAC12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7687EC9B975D95B4EB5E221D /* Pods-InsuranceAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Virtusa.InsuranceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsuranceApp.app/InsuranceApp";
+			};
+			name = Debug;
+		};
+		03B8613926C1E47E00DAC12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F49FBCA0419E71F77A0FF8 /* Pods-InsuranceAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Virtusa.InsuranceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsuranceApp.app/InsuranceApp";
+			};
+			name = Release;
+		};
+		03B8613B26C1E47E00DAC12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Virtusa.InsuranceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsuranceApp;
+			};
+			name = Debug;
+		};
+		03B8613C26C1E47E00DAC12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Virtusa.InsuranceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsuranceApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B8610526C1E47700DAC12A /* Build configuration list for PBXProject "InsuranceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B8613226C1E47E00DAC12A /* Debug */,
+				03B8613326C1E47E00DAC12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B8613426C1E47E00DAC12A /* Build configuration list for PBXNativeTarget "InsuranceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B8613526C1E47E00DAC12A /* Debug */,
+				03B8613626C1E47E00DAC12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B8613726C1E47E00DAC12A /* Build configuration list for PBXNativeTarget "InsuranceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B8613826C1E47E00DAC12A /* Debug */,
+				03B8613926C1E47E00DAC12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B8613A26C1E47E00DAC12A /* Build configuration list for PBXNativeTarget "InsuranceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B8613B26C1E47E00DAC12A /* Debug */,
+				03B8613C26C1E47E00DAC12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B8610226C1E47700DAC12A /* Project object */;
+}

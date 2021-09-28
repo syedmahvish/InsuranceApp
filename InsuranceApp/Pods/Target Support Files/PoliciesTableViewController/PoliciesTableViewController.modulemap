@@ -1,0 +1,6 @@
+framework module PoliciesTableViewController {
+  umbrella header "PoliciesTableViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

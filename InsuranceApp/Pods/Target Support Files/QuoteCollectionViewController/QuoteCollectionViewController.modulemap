@@ -1,0 +1,6 @@
+framework module QuoteCollectionViewController {
+  umbrella header "QuoteCollectionViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

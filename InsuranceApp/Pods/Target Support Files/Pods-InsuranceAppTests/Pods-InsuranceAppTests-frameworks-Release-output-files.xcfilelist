@@ -1,0 +1,11 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CustomDropDown.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DashboardTableViewController.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Generics.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PoliciesTableViewController.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupViewController.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProfileTableViewController.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuoteCollectionViewController.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework

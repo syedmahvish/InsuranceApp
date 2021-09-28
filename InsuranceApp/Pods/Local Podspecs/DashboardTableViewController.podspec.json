@@ -1,0 +1,51 @@
+{
+  "name": "DashboardTableViewController",
+  "version": "0.1.0",
+  "summary": "Create a DashboardTableViewController.",
+  "homepage": "https://gitlab.com/mahvish10/DashboardTableViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mahvish10": "mahvishsyed15@gmail.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/mahvish10/DashboardTableViewController.git",
+    "branch": "main"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "DashboardTableViewController/Classes/**/*",
+  "resource_bundles": {
+    "DashboardTableViewController": [
+      "DashboardTableViewController/Classes/**/*.{xib,storyboard,xcassets}"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "PromiseKit": [
+      "~> 6.8"
+    ],
+    "Alamofire": [
+      "~> 5.2"
+    ],
+    "SwiftyJSON": [
+      "~> 4.0"
+    ],
+    "Generics": [
+
+    ],
+    "CustomDropDown": [
+
+    ],
+    "ProfileTableViewController": [
+
+    ]
+  },
+  "swift_version": "4.2"
+}

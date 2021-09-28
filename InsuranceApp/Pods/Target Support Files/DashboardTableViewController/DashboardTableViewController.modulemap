@@ -1,0 +1,6 @@
+framework module DashboardTableViewController {
+  umbrella header "DashboardTableViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

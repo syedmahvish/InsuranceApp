@@ -1,0 +1,28 @@
+{
+  "name": "PopupViewController",
+  "version": "0.1.0",
+  "summary": "Create indepenedent PopupViewController.",
+  "homepage": "https://gitlab.com/mahvish10/PopupViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mahvish10": "mahvishsyed15@gmail.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/mahvish10/PopupViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "PopupViewController/Classes/**/*",
+  "dependencies": {
+    "Generics": [
+
+    ]
+  },
+  "swift_version": "4.2"
+}

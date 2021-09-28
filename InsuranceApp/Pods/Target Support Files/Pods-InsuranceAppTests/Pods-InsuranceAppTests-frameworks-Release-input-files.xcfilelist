@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-InsuranceAppTests/Pods-InsuranceAppTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CustomDropDown/CustomDropDown.framework
+${BUILT_PRODUCTS_DIR}/DashboardTableViewController/DashboardTableViewController.framework
+${BUILT_PRODUCTS_DIR}/Generics/Generics.framework
+${BUILT_PRODUCTS_DIR}/PoliciesTableViewController/PoliciesTableViewController.framework
+${BUILT_PRODUCTS_DIR}/PopupViewController/PopupViewController.framework
+${BUILT_PRODUCTS_DIR}/ProfileTableViewController/ProfileTableViewController.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
+${BUILT_PRODUCTS_DIR}/QuoteCollectionViewController/QuoteCollectionViewController.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

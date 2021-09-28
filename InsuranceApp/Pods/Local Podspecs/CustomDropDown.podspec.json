@@ -1,0 +1,39 @@
+{
+  "name": "CustomDropDown",
+  "version": "0.1.0",
+  "summary": "Create CustomDropDown with button and auto layout.",
+  "homepage": "https://gitlab.com/mahvish10/customdropdownpod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mahvish10": "mahvishsyed15@gmail.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/mahvish10/customdropdownpod.git",
+    "branch": "main"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "CustomDropDown/Classes/**/*.{swift,.h,.m}",
+  "resource_bundles": {
+    "CustomDropDown": [
+      "CustomDropDown/Classes/**/*.{xib,storyboard,xcassets}"
+    ]
+  },
+  "dependencies": {
+    "SwiftyJSON": [
+      "~> 4.0"
+    ],
+    "SnapKit": [
+
+    ],
+    "Generics": [
+
+    ]
+  },
+  "swift_version": "4.2"
+}

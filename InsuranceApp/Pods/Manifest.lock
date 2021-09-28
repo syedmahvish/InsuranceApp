@@ -1,0 +1,133 @@
+PODS:
+  - Alamofire (5.4.3)
+  - CustomDropDown (0.1.0):
+    - Generics
+    - SnapKit
+    - SwiftyJSON (~> 4.0)
+  - DashboardTableViewController (0.1.0):
+    - Alamofire (~> 5.2)
+    - CustomDropDown
+    - Generics
+    - ProfileTableViewController
+    - PromiseKit (~> 6.8)
+    - SnapKit
+    - SwiftyJSON (~> 4.0)
+  - Generics (0.1.0):
+    - Alamofire (~> 5.2)
+    - PromiseKit (~> 6.8)
+    - SnapKit
+    - SwiftyJSON (~> 4.0)
+  - PoliciesTableViewController (0.1.0):
+    - Alamofire (~> 5.2)
+    - CustomDropDown
+    - Generics
+    - PopupViewController
+    - ProfileTableViewController
+    - PromiseKit (~> 6.8)
+    - SnapKit
+    - SwiftyJSON (~> 4.0)
+  - PopupViewController (0.1.0):
+    - Generics
+  - ProfileTableViewController (0.1.0):
+    - Alamofire (~> 5.2)
+    - CustomDropDown
+    - Generics
+    - PromiseKit (~> 6.8)
+    - SnapKit
+    - SwiftyJSON (~> 4.0)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
+  - QuoteCollectionViewController (0.1.0):
+    - Alamofire (~> 5.2)
+    - CustomDropDown
+    - Generics
+    - PopupViewController
+    - ProfileTableViewController
+    - PromiseKit (~> 6.8)
+    - SnapKit
+    - SwiftyJSON (~> 4.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - CustomDropDown (from `https://gitlab.com/mahvish10/customdropdownpod`)
+  - DashboardTableViewController (from `https://gitlab.com/mahvish10/dashboardtableviewcontrollerpod`)
+  - Generics (from `https://gitlab.com/mahvish10/genericspod`)
+  - PoliciesTableViewController (from `https://gitlab.com/mahvish10/policiestableviewcontrollerpod`)
+  - PopupViewController (from `https://gitlab.com/mahvish10/popupviewcontrollerpod`)
+  - ProfileTableViewController (from `https://gitlab.com/mahvish10/profiletableviewcontrollerpod`)
+  - PromiseKit (~> 6.8)
+  - QuoteCollectionViewController (from `https://gitlab.com/mahvish10/quotescollectionviewcontrollerpod`)
+  - SnapKit (~> 5.0.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - PromiseKit
+    - SnapKit
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  CustomDropDown:
+    :git: https://gitlab.com/mahvish10/customdropdownpod
+  DashboardTableViewController:
+    :git: https://gitlab.com/mahvish10/dashboardtableviewcontrollerpod
+  Generics:
+    :git: https://gitlab.com/mahvish10/genericspod
+  PoliciesTableViewController:
+    :git: https://gitlab.com/mahvish10/policiestableviewcontrollerpod
+  PopupViewController:
+    :git: https://gitlab.com/mahvish10/popupviewcontrollerpod
+  ProfileTableViewController:
+    :git: https://gitlab.com/mahvish10/profiletableviewcontrollerpod
+  QuoteCollectionViewController:
+    :git: https://gitlab.com/mahvish10/quotescollectionviewcontrollerpod
+
+CHECKOUT OPTIONS:
+  CustomDropDown:
+    :commit: e6bdb12cd85742b59d62574662338a88074e5820
+    :git: https://gitlab.com/mahvish10/customdropdownpod
+  DashboardTableViewController:
+    :commit: 5e8c5ba42b2950cafff3147bb094a15334759dd0
+    :git: https://gitlab.com/mahvish10/dashboardtableviewcontrollerpod
+  Generics:
+    :commit: 2022369c37c0014788fafb7f99d39c22f36b872b
+    :git: https://gitlab.com/mahvish10/genericspod
+  PoliciesTableViewController:
+    :commit: 2c9cc5fb98c9cb19ed433e8caa4054d9c4d70aaf
+    :git: https://gitlab.com/mahvish10/policiestableviewcontrollerpod
+  PopupViewController:
+    :commit: 1e21e9ebbd262ff35df69261b95fd521f047e2f9
+    :git: https://gitlab.com/mahvish10/popupviewcontrollerpod
+  ProfileTableViewController:
+    :commit: e49e8be45402e1735851d7ada1983d95eaba22fc
+    :git: https://gitlab.com/mahvish10/profiletableviewcontrollerpod
+  QuoteCollectionViewController:
+    :commit: c5fdd52bde8766d8119159672332ddee59cbe63b
+    :git: https://gitlab.com/mahvish10/quotescollectionviewcontrollerpod
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  CustomDropDown: 263040bcc29a7fda162d9de086960abe8ee65b7c
+  DashboardTableViewController: 3afd2a772e8ec21b5ccc34520bd4e8d27957085d
+  Generics: 164193764966997db53e1475d75897cad744c4fb
+  PoliciesTableViewController: bc612e19ca41f5e07c4fd836a99d6a186d2db423
+  PopupViewController: 32192b6e8da320646152cb77375435300ca81674
+  ProfileTableViewController: f3a7c49917a764f3d39c8a21c8e79a271ae95642
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
+  QuoteCollectionViewController: 6bafae4f74e91c8458ac71c917d8e1da9a08bee6
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 99c15f2f00e251254d4e74087a5e15ff205e9067
+
+COCOAPODS: 1.10.1

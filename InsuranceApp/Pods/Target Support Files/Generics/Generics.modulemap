@@ -1,0 +1,6 @@
+framework module Generics {
+  umbrella header "Generics-umbrella.h"
+
+  export *
+  module * { export * }
+}
